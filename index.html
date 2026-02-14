@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Question 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="background-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Floating particles -->
+    <div class="particles-container" id="particlesContainer"></div>
+
+    <!-- Main content -->
+    <div class="container">
+        <!-- Envelope/Card Animation -->
+        <div class="envelope-wrapper" id="envelopeWrapper">
+            <div class="envelope" id="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body">
+                    <div class="envelope-shine"></div>
+                </div>
+                <div class="envelope-seal">
+                    <span class="seal-icon">💝</span>
+                </div>
+            </div>
+            <div class="tap-hint" id="tapHint">
+                <span class="tap-text">Tap to open</span>
+                <div class="tap-indicator"></div>
+            </div>
+        </div>
+
+        <!-- Card that slides out -->
+        <div class="card-container" id="cardContainer">
+            <div class="card" id="card">
+                <div class="card-shine"></div>
+                <div class="card-content">
+                    <div class="decorative-corner corner-tl"></div>
+                    <div class="decorative-corner corner-tr"></div>
+                    <div class="decorative-corner corner-bl"></div>
+                    <div class="decorative-corner corner-br"></div>
+                    
+                    <div class="card-top">
+                        <div class="card-header">
+                            <div class="floating-hearts-card">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-middle">
+                        <h1 class="question">Will you be my girlfriend?</h1>
+                        <div class="question-subtext">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="card-bottom">
+                        <div class="buttons-container" id="buttonsContainer">
+                            <button class="btn btn-yes" id="yesBtn">
+                                <span class="btn-text">Yes!</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                            <button class="btn btn-no" id="noBtn">
+                                <span class="btn-text">No</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Success screen -->
+        <div class="success-screen" id="successScreen">
+            <div class="celebration">
+                <div class="success-particles"></div>
+                <div class="heart-burst">
+                    <span>💖</span>
+                    <span>💕</span>
+                    <span>💗</span>
+                    <span>💓</span>
+                    <span>💝</span>
+                    <span>💖</span>
+                    <span>💕</span>
+                    <span>💗</span>
+                    <span>❤️</span>
+                    <span>💞</span>
+                </div>
+                <div class="success-content">
+                    <h2 class="success-message">Yayyyyyy! You made me the happiest!</h2>
+                    <div class="success-emoji">🎉💕🎊</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
