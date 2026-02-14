@@ -78,4 +78,3 @@ Modify `script.js`:
 - Adjust movement distances
 - Customize messages
 
-Enjoy your beautiful proposal website! 💕✨
